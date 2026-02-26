@@ -1,0 +1,99 @@
+(footprint "SSD1306"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "56139315-dcd1-4b1a-86ee-0b3a815deac9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SSD1306"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "08789c48-8961-458a-9c4d-c4de37296491")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "884b0424-dd66-493d-9fea-21364c088b72")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "141c2290-9239-477c-892e-83e4963b898a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -8.5 -4.5)
+		(end 9 -1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "7b78d20e-6b15-459d-a91f-521d146f9b1f")
+	)
+	(pad "7" smd roundrect
+		(at 7 -3)
+		(size 3.22625 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "2c063ae7-53cf-4512-99a6-19e2798ec838")
+	)
+	(pad "10" smd roundrect
+		(at 2.386875 -3)
+		(size 3.22625 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "eaec03f4-1886-4663-9477-a96411285fe4")
+	)
+	(pad "11" smd roundrect
+		(at -2 -3)
+		(size 3.22625 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "644a3beb-003d-49d8-880a-051c711376cf")
+	)
+	(pad "14" smd roundrect
+		(at -6.613125 -3)
+		(size 3.22625 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "9d2c2dfb-375f-48c0-a63e-8aebb48c8ecc")
+	)
+	(embedded_fonts no)
+)
