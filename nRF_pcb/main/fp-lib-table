@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "diy_recreations")(type "KiCad")(uri "/home/flareflo/CLionProjects/traccam-hardware/nRF_pcb/lib/diy_recreations.pretty")(options "")(descr ""))
+)

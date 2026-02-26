@@ -1,0 +1,5 @@
+(design_block_lib_table
+  (version 7)
+  (lib (name "XIAO_Series_Footprints")(type "KiCad")(uri "../lib/XIAO_Series_Footprints.pretty")(options "")(descr ""))
+  (lib (name "Display.pretty")(type "KiCad")(uri "/home/flareflo/CLionProjects/traccam-hardware/nRF_pcb/lib/kicad-footprints-master-Display.pretty/Display.pretty")(options "")(descr ""))
+)

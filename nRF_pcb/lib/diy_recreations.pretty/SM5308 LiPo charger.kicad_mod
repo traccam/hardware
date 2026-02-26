@@ -1,0 +1,207 @@
+(footprint "SM5308 LiPo charger"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "448fa072-95da-415f-8be6-07977bea502d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SM5308 LiPo charger"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "05bf7e7a-7cae-4732-9d7f-231ba3938cab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "51ee3792-3c6e-4275-aaa6-73b127cf9f1d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4a03f252-602a-475b-a15e-9ccd61c9a2a3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -8.5 -29)
+		(end 12 -4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "fe42809f-d03c-4797-b7dd-7d2de9676d41")
+	)
+	(fp_text user "+"
+		(at 5 -5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "0c863443-1a17-4951-8c23-92d639feee00")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "-"
+		(at 9 -26 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "0fff4dac-3f40-49ca-9f31-0e8d59620fdf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "5V IN/OUT"
+		(at 3.5 -23.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "3b690f00-2538-48d4-af8e-9cdd182eacee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "-"
+		(at -2.5 -5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "63cf4a17-92d7-4912-9fdc-41409d4b936d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "+"
+		(at 9 -20.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "8707b5a3-3c39-4662-bdc7-db9205579e0e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "BAT"
+		(at 0.5 -6.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "beb5ae6d-4ae3-4082-b92e-b3663f4de6f1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "KEY"
+		(at 8.5 -10 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "fe34a954-4a83-4b02-8721-f474d5bc805f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2c135df0-ba17-41f6-b34c-a9b9b7ed44c7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "6" smd roundrect
+		(at 0 -5.5)
+		(size 1.905 1.27)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "1b6baa50-4e9a-4e2c-8174-83c6407010fe")
+	)
+	(pad "7" smd roundrect
+		(at 4 -5.5)
+		(size 1.905 1.27)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "dbd351ce-cb46-41ae-9c18-56e5c3269801")
+	)
+	(pad "8" smd roundrect
+		(at 10.5 -9)
+		(size 1.905 1.27)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "5ed03fb2-297b-4078-86b7-1c955a86edbc")
+	)
+	(pad "9" smd roundrect
+		(at 10 -25.5)
+		(size 1.905 1.27)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "a78527db-e53b-4adf-ad87-8f4fab1cf5e8")
+	)
+	(pad "10" smd roundrect
+		(at 10 -22.5)
+		(size 1.905 1.27)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "a7195097-a782-4100-bd6e-e81575741520")
+	)
+	(embedded_fonts no)
+)
