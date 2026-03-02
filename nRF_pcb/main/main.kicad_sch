@@ -2823,7 +2823,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "diy_recreations:Button Center"
 			(at 138.43 113.03 0)
 			(effects
 				(font
@@ -3348,7 +3348,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "diy_recreations:Button Left"
 			(at 125.73 113.03 0)
 			(effects
 				(font
@@ -3905,7 +3905,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "diy_recreations:Button Right"
 			(at 152.4 113.03 0)
 			(effects
 				(font

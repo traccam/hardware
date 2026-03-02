@@ -1,4 +1,4 @@
-26616540002783555
+26621857420860022
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -105400,6 +105400,27 @@ BE-280 GPS
 6
 diy_recreations
 Battery Header
+
+
+0
+2
+2
+diy_recreations
+Button Center
+
+
+0
+2
+2
+diy_recreations
+Button Left
+
+
+0
+2
+2
+diy_recreations
+Button Right
 
 
 0
