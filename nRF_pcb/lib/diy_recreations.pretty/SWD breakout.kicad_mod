@@ -57,8 +57,8 @@
 	)
 	(attr smd)
 	(fp_rect
-		(start -8.5 -4.5)
-		(end 9 -1.5)
+		(start -8.5 -1.5)
+		(end 9 1.5)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -67,29 +67,94 @@
 		(layer "F.SilkS")
 		(uuid "7b78d20e-6b15-459d-a91f-521d146f9b1f")
 	)
+	(fp_text user "SWD"
+		(at -1.5 -1.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "74935518-3d60-4d1a-97b7-2e834ae2deaf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "RST"
+		(at 1 3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "74c79c80-8d01-41ac-9533-e1fb8a55b0b2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "CLK"
+		(at -3.5 3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "86b29d87-016e-4068-82aa-6bd116e47fe1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "GND"
+		(at 5.5 3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b35bac68-963b-469d-8ec1-e5aa24ec3df4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "DAT"
+		(at -8 3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f0e936d4-dc5e-4da5-b410-e6a39fd0a922")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
 	(pad "1" smd roundrect
-		(at -6.613125 -3)
+		(at -6.613125 0)
 		(size 3.22625 2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
 		(uuid "9d2c2dfb-375f-48c0-a63e-8aebb48c8ecc")
 	)
 	(pad "2" smd roundrect
-		(at -2 -3)
+		(at -2 0)
 		(size 3.22625 2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
 		(uuid "644a3beb-003d-49d8-880a-051c711376cf")
 	)
 	(pad "3" smd roundrect
-		(at 2.386875 -3)
+		(at 2.386875 0)
 		(size 3.22625 2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
 		(uuid "eaec03f4-1886-4663-9477-a96411285fe4")
 	)
 	(pad "4" smd roundrect
-		(at 7 -3)
+		(at 7 0)
 		(size 3.22625 2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)

@@ -57,8 +57,8 @@
 	)
 	(attr smd)
 	(fp_rect
-		(start -4 -4.5)
-		(end 4 -1.5)
+		(start -4 -1.5)
+		(end 4 1.5)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -67,15 +67,54 @@
 		(layer "F.SilkS")
 		(uuid "899d6c7a-9307-45a0-a8bb-dac91a67d114")
 	)
+	(fp_text user "GND"
+		(at -3.5 3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "336d10a0-48c5-4140-a7d8-fa9a12fed490")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "IN"
+		(at 1.5 3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "9f3b93ed-5f4d-4e35-b65e-64f5e097ccaf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "BTN RGHT"
+		(at -3.5 -1.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f2467ac8-fd41-4314-8414-f8f4cdd4bfd0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
 	(pad "1" smd roundrect
-		(at -2 -3)
+		(at -2 0)
 		(size 3.22625 2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
 		(uuid "5ba7c558-ae94-4e29-8261-32ad32759d0c")
 	)
 	(pad "2" smd roundrect
-		(at 2 -3)
+		(at 2 0)
 		(size 3.22625 2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)

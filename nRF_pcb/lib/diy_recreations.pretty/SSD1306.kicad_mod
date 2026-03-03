@@ -57,8 +57,8 @@
 	)
 	(attr smd)
 	(fp_rect
-		(start -8.5 -4.5)
-		(end 9 -1.5)
+		(start -8.5 -1.5)
+		(end 9 1.5)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -67,29 +67,94 @@
 		(layer "F.SilkS")
 		(uuid "7b78d20e-6b15-459d-a91f-521d146f9b1f")
 	)
+	(fp_text user "GND"
+		(at 5.5 3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "153cd187-0991-43ea-805c-bd7626fa0aae")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "VCC"
+		(at -8 3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "46b96013-ce91-4db9-aaa2-c91cd89ecd74")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "SSD1306"
+		(at -3.5 -1.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "80d9aba0-cdb0-4bab-9a23-e2941b1a591c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "SCL"
+		(at 1 3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "99cd57fd-2349-4bac-bb17-73430993d74e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "SDA"
+		(at -3.5 3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "bd03bd87-e9d6-469a-86aa-3e54f28fcb1e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
 	(pad "7" smd roundrect
-		(at 7 -3)
+		(at 7 0)
 		(size 3.22625 2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
 		(uuid "2c063ae7-53cf-4512-99a6-19e2798ec838")
 	)
 	(pad "10" smd roundrect
-		(at 2.386875 -3)
+		(at 2.386875 0)
 		(size 3.22625 2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
 		(uuid "eaec03f4-1886-4663-9477-a96411285fe4")
 	)
 	(pad "11" smd roundrect
-		(at -2 -3)
+		(at -2 0)
 		(size 3.22625 2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
 		(uuid "644a3beb-003d-49d8-880a-051c711376cf")
 	)
 	(pad "14" smd roundrect
-		(at -6.613125 -3)
+		(at -6.613125 0)
 		(size 3.22625 2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
