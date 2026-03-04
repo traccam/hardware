@@ -3175,7 +3175,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "491a87e6-bac2-4bb5-9697-6b2ae6f4ad66")
 		(property "Reference" "J1"
