@@ -8615,8 +8615,8 @@
 		(uuid "c6b4e803-0c2d-40d5-9b21-d370ac21cec1")
 	)
 	(gr_circle
-		(center 112.5 108.5)
-		(end 108.5 108.5)
+		(center 114.5 108)
+		(end 109 108)
 		(stroke
 			(width 0.05)
 			(type default)
